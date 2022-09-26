@@ -12,7 +12,7 @@ let seconds= oraAtuale.getSeconds()
 document.getElementById('seconds').innerHTML=seconds;
 
 
-let europeDAte= (oraAtuale.getDay())+'/'+(oraAtuale.getMonth())+'/'+(oraAtuale.getFullYear())
+let europeDAte= (oraAtuale.getDate())+'/'+(oraAtuale.getMonth()+1)+'/'+(oraAtuale.getFullYear())
 
 
 document.getElementById('europe').innerHTML=europeDAte;
